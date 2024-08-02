@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin:0;
+}
+.arrow{
+    position: relative;
+    top:65px;
+    left:65px;
+}
+.topmain{
+    display: flex;
+    flex-direction: column;
+    margin-top:180px;
+    gap:40px;
+}
+.loginwrap{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+.rogo{
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 500px;
+    height: 80px;
+    border-radius: 40px;
+    outline: none;
+    margin-left:auto;
+    margin-right: auto;
+    border-color: #b6b6b6;
+}
+input::placeholder {
+    color: #B6B6B6;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    margin-left: 32px;
+}
+
+.loginbutton{
+    width:500px;
+    height:80px;
+    border-radius: 40px;
+    background: #BBD4FF;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logintext{
+    color: #fff;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.5;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.bottommain{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    text-align: center;
+    margin-top:24px;
+}
+.find{
+    color: #B6B6B6;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+.join{
+    display: flex;
+    justify-content: center;
+    gap:12px;
+}
+.join1{
+    color: #B6B6B6;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+.join2{
+    color: #392F31;
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.5px;
+}
+input {
+    width: 500px;
+    height: 80px;
+    font-size: 24px;
+    border: 0;
+    border-radius: 40px;
+    outline: none;
+    padding-left: 32px;
+    background-color: #fbfbfb;
+    border: 1px solid #B6B6B6;
+}
+.loginbutton{
+    cursor: pointer;
+    border: 0;
+    width: 534.13px;
+    height: 82.13px;
+}
+button:hover{
+    background-color: #6979e3;
+}
